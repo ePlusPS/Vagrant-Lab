@@ -1,1 +1,4 @@
-user {"rstarmer": ensure=>'present',}
+user {"test": 
+	ensure	=> 'present',
+	managehome => 'true',
+	}
